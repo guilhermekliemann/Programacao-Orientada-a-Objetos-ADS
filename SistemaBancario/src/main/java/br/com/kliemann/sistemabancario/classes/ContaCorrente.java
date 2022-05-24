@@ -54,11 +54,9 @@ public class ContaCorrente {
         if(data == null) {
             throw new NullDataException();
         }
-        if(data.equals(data)) {
-            for(Transacao transacao : this.transacao) {
-                if(transacao.getData().equals(data)) {
-                    extrato.add(transacao);
-                }
+        for(Transacao transacao : this.transacao) {
+            if(transacao.getData().equals(data)) {
+                extrato.add(transacao);
             }
         }
 
