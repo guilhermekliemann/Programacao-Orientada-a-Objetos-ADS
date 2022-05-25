@@ -12,11 +12,15 @@ public class Main {
         
         cc.deposit(550.0);
         cc.withdraw(300.0);
+        cc.getBankBalanceByDate(LocalDate.now());
+        cc.extractByPeriod(LocalDate.now(), LocalDate.now());
         
         System.out.println(cc.toString());
         
         cp.deposit(700.0);
         cp.withdraw(400.0);
+        cp.getBankBalanceByDate(LocalDate.now());
+        cp.extractByPeriod(LocalDate.now(), LocalDate.now());
         
         System.out.println(cp.toString());
         
