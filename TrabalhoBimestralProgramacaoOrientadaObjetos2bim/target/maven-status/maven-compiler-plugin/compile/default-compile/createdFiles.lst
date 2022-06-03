@@ -1,0 +1,6 @@
+br\com\kliemann\sistemagerenciamentolivrarias\classes\Livraria.class
+br\com\kliemann\sistemagerenciamentolivrarias\Main.class
+br\com\kliemann\sistemagerenciamentolivrarias\classes\Livro.class
+br\com\kliemann\sistemagerenciamentolivrarias\classes\Venda.class
+br\com\kliemann\sistemagerenciamentolivrarias\classes\CadastroCliente.class
+br\com\kliemann\sistemagerenciamentolivrarias\classes\EnderecoCliente.class
